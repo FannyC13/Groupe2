@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "projet_edu",
+  "version": "1.0.0",
+  "description": "Voici notre projet sur l'IA au service de l'éducation ",
+  "main": "App.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FannyC13/Groupe2.git"
+  },
+  "author": "nous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FannyC13/Groupe2/issues"
+  },
+  "homepage": "https://github.com/FannyC13/Groupe2#readme"
+}
