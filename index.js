@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
@@ -38,7 +38,7 @@ async function runCompletion() {
     await startServer();
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: "quel temps fait-il ?",
+      prompt: "je vous parle d'un temps que les moins de 20 ans",
       temperature: 0.7,
       max_tokens: 256,
       top_p: 1,
